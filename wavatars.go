@@ -130,5 +130,10 @@ func wavatar_hsl(h, s, l int) ([]int) {
 }
 
 func wavatar_clamp(v int) int {
-return 0
+	if v < 0 {
+		return 0
+	} else if v > 255 {
+		return 255
+	}
+	return v
 }

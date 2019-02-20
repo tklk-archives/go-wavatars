@@ -1,4 +1,4 @@
-package wavatars
+package wavatars // import "src.techknowlogick.com/wavatars"
 
 import (
 	"bytes"

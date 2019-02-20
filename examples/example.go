@@ -4,7 +4,7 @@ import (
 	"os"
 	"fmt"
 	"image/png"
-	"github.com/techknowlogick/go-wavatars"
+	"src.techknowlogick.com/wavatars"
 )
 
 func main() {
